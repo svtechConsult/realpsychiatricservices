@@ -627,7 +627,7 @@ section {
 }
 
 .hero-animated .btn-get-started {
-    font-size: 1em;
+    font-size: 0.75em;
     font-weight: 400;
     display: inline-block;
     padding: 10px 28px;
@@ -1285,7 +1285,7 @@ section {
 .cta .content .cta-btn {
     color: var(--color-white);
     font-weight: 500;
-    font-size: 0.75em;
+    font-size: 16px;
     display: inline-block;
     padding: 12px 40px;
     border-radius: 5px;
