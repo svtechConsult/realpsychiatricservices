@@ -3,9 +3,9 @@
     <dmdesigns>
         <dmdesign active>
             <dmdesignskill skill="bs5.colors">
-                <dmcolor key="primary" color="#53b4ca"/>
-                <dmcolor key="secondary" color="#485664"/>
-                <dmcolor key="info" color="#0dcaf0"/>
+                <dmcolor key="primary" color="#0ca2bd"/>
+                <dmcolor key="secondary" color="#393b3c"/>
+                <dmcolor key="info" color="#2082b6"/>
                 <dmcolor key="success" color="#198754"/>
                 <dmcolor key="warning" color="#ffc107"/>
                 <dmcolor key="danger" color="#dc3545"/>
