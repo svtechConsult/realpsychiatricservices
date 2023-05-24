@@ -3,11 +3,14 @@
 /* Vars go before the @import */
 /* Click on the Uncomment icon in the Style panel to uncomment and customize the variables:
 
-IMPORTANT: Customize SASS maps just before @import "bootstrap/maps" statement, not here */
-/* $custom-color: #df711b;
+IMPORTANT: Customize SASS maps just before @import "bootstrap/maps" statement, not here
+*/
+/*
+$custom-color: #df711b;
 $custom-theme-colors: (
     "custom": $custom-color
-); */
+);
+ */
 /* Import web fonts - Must come before any CSS rules. Refresh the Page view after making changes to import statements. */
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
@@ -19,7 +22,8 @@ $custom-theme-colors: (
 /* For tablet devices */
 /* Customize Bootstrap maps here */
 /* Customize Utilities here */
-/* $utilities: map-merge(
+/*
+$utilities: map-merge(
   $utilities,
   (
     "opacity": map-merge(
@@ -32,7 +36,8 @@ $custom-theme-colors: (
       ),
     ),
   )
-); */
+);
+ */
 /* Optionally, comment out the unused components to decrease the file size */
 :root {
   --bs-blue: #0daab4;
