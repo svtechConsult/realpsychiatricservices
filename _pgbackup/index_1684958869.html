@@ -29,30 +29,9 @@
     <link href="assets/img/favicon.png" rel="icon"> 
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> 
     <!-- Google Fonts -->     
-    <script>
-  function loadFonts() {
-    var link = document.createElement('link');
-    link.href = 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap';
-    link.rel = 'stylesheet';
-    document.head.appendChild(link);
-  }
-
-  function loadPreconnect() {
-    var link1 = document.createElement('link');
-    link1.rel = 'preconnect';
-    link1.href = 'https://fonts.googleapis.com';
-    document.head.appendChild(link1);
-
-    var link2 = document.createElement('link');
-    link2.rel = 'preconnect';
-    link2.href = 'https://fonts.gstatic.com';
-    link2.setAttribute('crossorigin', '');
-    document.head.appendChild(link2);
-  }
-
-  loadPreconnect();
-  loadFonts();
-</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
     <!-- Vendor CSS Files -->     
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
     <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css"> 
@@ -84,55 +63,43 @@
         <div class="container-fluid d-flex align-items-center justify-content-between"> <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0"> <img src="assets/img/rps_logo_final.webp" class="img-fluid mt-xxl-n1"> </a> 
             <nav id="navbar" class="navbar"> 
                 <ul> 
-                    <li>
-                        <a class="nav-link scrollto" href="index.html"><b style="font-size: 1.5em;" class="fw-normal">Home</b></a>
+                    <li><a class="nav-link scrollto" href="index.html"><b style="font-size: 1.5em;" class="fw-normal">Home</b></a>
                     </li>
-                    <li>
-                        <a class="nav-link scrollto" href="index.html#about" style="font-size: 1.5em;">About</a>
+                    <li><a class="nav-link scrollto" href="index.html#about" style="font-size: 1.5em;">About</a>
                     </li>                     
-                    <li>
-                        <a class="nav-link scrollto" href="index.html#services" style="font-size: 1.5em;">Services</a>
+                    <li><a class="nav-link scrollto" href="index.html#services" style="font-size: 1.5em;">Services</a>
                     </li>                     
+                    <li class="dropdown"><a href="blog.html"><span style="font-size: 1.5em;">Blog</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                        <ul> 
+                            <li><a href="blog-ADHD.html">ADHD</a>
+                            </li>                             
+                            <li><a href="blog-telepsychiatry.html">Tele-Psychiatry</a>
+                            </li>                             
+                            <li><a href="blog-anxiety.html">Anxiety</a>
+                            </li>                             
+                            <li><a href="blog-PTSD.html" id="ptsd.html">PTSD</a>
+                            </li>                             
+                        </ul>                         
+                    </li>
                     <li class="dropdown">
-                        <a href="blog.html"><span style="font-size: 1.5em;">Blog</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
+                        <a href="#"><span style="font-size: 1.5em;">Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
                         <ul> 
-                            <li>
-                                <a href="blog-ADHD.html">ADHD</a>
+                            <li><a href="adhd.html">ADHD</a>
+                            </li>                             
+                            <li><a href="anxiety.html">Anxiety</a>
+                            </li>                             
+                            <li><a href="depression.html">Depression</a>
                             </li>                             
                             <li>
-                                <a href="blog-telepsychiatry.html">Tele-Psychiatry</a>
+                                <a href="ptsd.html">PTSD</a>
                             </li>                             
-                            <li>
-                                <a href="blog-anxiety.html">Anxiety</a>
-                            </li>                             
-                            <li>
-                                <a href="blog-PTSD.html" id="ptsd.html">PTSD</a>
-                            </li>                             
-                        </ul>                         
-                    </li>
-                    <li class="dropdown"><a href="#"><span style="font-size: 1.5em;">Treatments</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a> 
-                        <ul> 
-                            <li>
-                                <a href="adhd.html">ADHD</a>
-                            </li>                             
-                            <li>
-                                <a href="anxiety.html">Anxiety</a>
-                            </li>                             
-                            <li>
-                                <a href="depression.html">Depression</a>
-                            </li>                             
-                            <li><a href="ptsd.html">PTSD</a>
-                            </li>                             
-                            <li>
-                                <a href="bipolar.html">Bipolar Disorder</a>
+                            <li><a href="bipolar.html">Bipolar Disorder</a>
                             </li>
-                            <li>
-                                <a href="stress.html">Stress</a>
+                            <li><a href="stress.html">Stress</a>
                             </li>                             
                         </ul>                         
                     </li>                     
-                    <li>
-                        <a class="nav-link scrollto" href="index.html#contact" style="font-size: 1.5em;">Contact</a>
+                    <li><a class="nav-link scrollto" href="index.html#contact" style="font-size: 1.5em;">Contact</a>
                     </li>                     
                 </ul>                 <i class="bi bi-list d-none mobile-nav-toggle"></i> 
             </nav>
@@ -167,11 +134,14 @@
                         <h3 class="fs-3 mt-xl-n5 pt-0 pt-lg-5 text-muted">Patient centered approach to Psychiatric Care&nbsp;&nbsp;</h3> 
                         <!-- Tabs -->                         
                         <ul class="nav nav-pills mb-3"> 
-                            <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1">Services</a>
+                            <li>
+                                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Services</a>
                             </li>                             
-                            <li><a class="nav-link" data-bs-toggle="pill" href="#tab2">Values</a>
+                            <li>
+                                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Values</a>
                             </li>                             
-                            <li><a class="nav-link" data-bs-toggle="pill" href="#tab3">Why Real Psychiatric Services?</a>
+                            <li>
+                                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Why Real Psychiatric Services?</a>
                             </li>                             
                         </ul>
                         <!-- End Tabs -->                         
@@ -499,7 +469,8 @@
                         </div>                         
                         <div class="accordion accordion-flush px-xl-5" id="faqlist"> 
                             <div class="accordion-item" data-aos="fade-up" data-aos-delay="200"> 
-                                <h3 class="accordion-header"> <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1"><i class="bi bi-question-circle question-icon"></i>
+                                <h3 class="accordion-header"> <button class="accordion-button collapsed text-muted" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                        <i class="bi bi-question-circle question-icon"></i>
                                         How do I make an appointment?
                                     </button> </h3> 
                                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist"> 
@@ -532,8 +503,7 @@
                                         How long is do I have to wait for an appointment?
                                     </button> </h3> 
                                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist"> 
-                                    <div class="accordion-body">
-                                        <i class="bi bi-question-circle question-icon"></i> 
+                                    <div class="accordion-body"><i class="bi bi-question-circle question-icon"></i> 
                                         We&apos;ll do our best to contact you to schedule an appointment within 24 hours once you fill in our online appointment request form. However, we generally have appoinments available within 48 hour of your online form submission.&nbsp;
                                     </div>                                     
                                 </div>                                 
@@ -638,8 +608,7 @@
                                 </div>                                 
                             </div>
                             <!-- End Info Item -->                             
-                            <div class="info-item d-flex">
-                                <i class="bi bi-phone flex-shrink-0"></i> 
+                            <div class="info-item d-flex"><i class="bi bi-phone flex-shrink-0"></i> 
                                 <div> 
                                     <h4 class="fs-4 text-muted">Call:</h4> 
                                     <p href="tel:+1&nbsp;&nbsp;614-427-3205" class="fs-4"><a href="tel:614-427-3205">+1  614-427-3205</a></p> 
@@ -685,4 +654,4 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>     
     <!-- Template Main JS File -->     
     <script src="assets/js/main.js"></script>     
-</body>
+</body> 
