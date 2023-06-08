@@ -1,14 +1,3 @@
-/* *
-* Template Name: HeroBiz
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/ */
-/* *
-* Check out variables.css for easy customization of colors, typography, and other repetitive properties */
-/* --------------------------------------------------------------
-# General
--------------------------------------------------------------- */
 :root {
     scroll-behavior: smooth;
 }
@@ -16,8 +5,9 @@
 a {
     color: var(--color-links);
     text-decoration: none;
-    margin-left: 22px;
-    font-size: 1em;
+    margin-left: 1px;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 
 a:hover {
@@ -34,9 +24,6 @@ h6 {
     font-family: var(--font-primary);
 }
 
-/* --------------------------------------------------------------
-# Preloader
--------------------------------------------------------------- */
 #preloader {
     position: fixed;
     inset: 0;
@@ -79,12 +66,9 @@ h6 {
     }
 }
 
-/* --------------------------------------------------------------
-# Sections & Section Header
--------------------------------------------------------------- */
 section {
     padding: 60px 0;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .section-header {
@@ -118,9 +102,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Breadcrumbs
--------------------------------------------------------------- */
 .breadcrumbs {
     padding: 15px 0;
     background: rgba(var(--color-secondary-rgb), 0.05);
@@ -173,9 +154,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Scroll top button
--------------------------------------------------------------- */
 .scroll-top {
     position: fixed;
     visibility: hidden;
@@ -206,18 +184,12 @@ section {
     opacity: 1;
 }
 
-/* --------------------------------------------------------------
-# Disable aos animation delay on mobile devices
--------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
     [data-aos-delay] {
         transition-delay: 0 !important;
     }
 }
 
-/* --------------------------------------------------------------
-# Header
--------------------------------------------------------------- */
 .header {
     padding: 15px 0;
     transition: all 0.5s;
@@ -276,9 +248,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Desktop Navigation 
--------------------------------------------------------------- */
 @media (min-width: 1280px) {
     .navbar {
         padding: 0;
@@ -459,9 +428,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Mobile Navigation
--------------------------------------------------------------- */
 @media (max-width: 1279px) {
     .navbar {
         position: fixed;
@@ -562,12 +528,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Index Page
--------------------------------------------------------------- */
-/* --------------------------------------------------------------
-# Animated Hero Section
--------------------------------------------------------------- */
 .hero-animated {
     width: 100%;
     min-height: 50vh;
@@ -693,9 +653,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Carousel Hero Section
--------------------------------------------------------------- */
 .hero {
     width: 100%;
     padding: 0;
@@ -887,9 +844,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Fullscreen Hero Section
--------------------------------------------------------------- */
 .hero-fullscreen {
     width: 100%;
     min-height: 100vh;
@@ -988,9 +942,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Static Hero Section
--------------------------------------------------------------- */
 .hero-static {
     width: 100%;
     min-height: 50vh;
@@ -1076,9 +1027,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Featured Services Section
--------------------------------------------------------------- */
 .featured-services .service-item {
     padding: 30px;
     transition: all ease-in-out 0.4s;
@@ -1122,9 +1070,6 @@ section {
     color: var(--color-primary);
 }
 
-/* --------------------------------------------------------------
-# About Section
--------------------------------------------------------------- */
 .about .about-img {
     position: relative;
     margin: 60px 0 0 60px;
@@ -1208,9 +1153,6 @@ section {
     color: var(--color-primary);
 }
 
-/* --------------------------------------------------------------
-# Clients Section
--------------------------------------------------------------- */
 .clients {
     padding: 0 0 60px 0;
 }
@@ -1226,9 +1168,6 @@ section {
     opacity: 1;
 }
 
-/* --------------------------------------------------------------
-# Call To Action Section
--------------------------------------------------------------- */
 .cta {
     padding: 0;
     margin-bottom: 60px;
@@ -1326,9 +1265,6 @@ section {
     border-radius: 15px;
 }
 
-/* --------------------------------------------------------------
-# On Focus Section
--------------------------------------------------------------- */
 .onfocus {
     padding: 0;
 }
@@ -1487,9 +1423,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Features Section
--------------------------------------------------------------- */
 .features .nav-tabs {
     border: 0;
 }
@@ -1583,9 +1516,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Services Section
--------------------------------------------------------------- */
 .services .img {
     border-radius: 8px;
     overflow: hidden;
@@ -1657,9 +1587,6 @@ section {
     transform: scale(1.2);
 }
 
-/* --------------------------------------------------------------
-# Testimonials Section
--------------------------------------------------------------- */
 .testimonials {
     padding: 80px 0;
     background: url("../img/testimonials-bg.jpg") no-repeat;
@@ -1767,9 +1694,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Pricing Section
--------------------------------------------------------------- */
 .pricing {
     background: rgba(var(--color-secondary-rgb), 0.04);
 }
@@ -1883,9 +1807,6 @@ section {
     color: var(--color-white);
 }
 
-/* --------------------------------------------------------------
-# F.A.Q Section
--------------------------------------------------------------- */
 @media (max-width: 991px) {
     .faq {
         padding: 0;
@@ -1967,9 +1888,6 @@ section {
     box-shadow: none;
 }
 
-/* --------------------------------------------------------------
-# Portfolio Section
--------------------------------------------------------------- */
 .portfolio .portfolio-flters {
     padding: 0;
     margin: 0 auto 30px auto;
@@ -2082,9 +2000,6 @@ section {
     inset: auto 10px 0 10px;
 }
 
-/* --------------------------------------------------------------
-# Team Section
--------------------------------------------------------------- */
 .team .team-member .member-img {
     border-radius: 8px;
     overflow: hidden;
@@ -2165,9 +2080,6 @@ section {
     opacity: 1;
 }
 
-/* --------------------------------------------------------------
-# Recent Blog Posts
--------------------------------------------------------------- */
 .recent-blog-posts .post-box {
     transition: 0.3s;
     height: 100%;
@@ -2241,9 +2153,6 @@ section {
     transform: scale(1.1);
 }
 
-/* --------------------------------------------------------------
-# Contact Section
--------------------------------------------------------------- */
 .contact .map {
     margin-bottom: 40px;
 }
@@ -2397,9 +2306,6 @@ section {
     }
 }
 
-/* --------------------------------------------------------------
-# Portfolio Details
--------------------------------------------------------------- */
 .portfolio-details {
     padding-top: 40px;
 }
@@ -2462,12 +2368,6 @@ section {
     padding: 0;
 }
 
-/* --------------------------------------------------------------
-# Blog Stylings
--------------------------------------------------------------- */
-/* --------------------------------------------------------------
-# Blog Home Posts List
--------------------------------------------------------------- */
 .blog .posts-list article {
     box-shadow: 0 4px 16px rgba(var(--color-black-rgb), 0.1);
     padding: 30px;
@@ -2550,9 +2450,6 @@ section {
     background: rgba(var(--color-primary-rgb), 0.8);
 }
 
-/* --------------------------------------------------------------
-# Blog Details Page
--------------------------------------------------------------- */
 .blog .blog-details {
     box-shadow: 0 4px 16px rgba(var(--color-black-rgb), 0.1);
     padding: 30px;
@@ -2732,9 +2629,6 @@ section {
     margin-bottom: 0;
 }
 
-/* --------------------------------------------------------------
-# Blog Sidebar
--------------------------------------------------------------- */
 .blog .sidebar {
     padding: 30px;
     box-shadow: 0 4px 16px rgba(var(--color-black-rgb), 0.1);
@@ -2888,9 +2782,6 @@ section {
     font-size: 14px;
 }
 
-/* --------------------------------------------------------------
-# Blog Comments
--------------------------------------------------------------- */
 .blog .comments {
     margin-top: 30px;
 }
@@ -2999,9 +2890,6 @@ section {
     background-color: rgba(var(--color-secondary-rgb), 0.8);
 }
 
-/* --------------------------------------------------------------
-# Blog Home Pagination
--------------------------------------------------------------- */
 .blog .blog-pagination {
     margin-top: 30px;
     color: var(--color-secondary-light);
@@ -3037,9 +2925,6 @@ section {
     color: var(--color-white);
 }
 
-/* --------------------------------------------------------------
-# Footer
--------------------------------------------------------------- */
 .footer {
     color: var(--color-white);
     font-size: 14px;
